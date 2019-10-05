@@ -1,0 +1,36 @@
+.blog-header {
+        width: 100%;
+        background-color:black;
+        padding: 1%;
+        margin-left: -3%;
+        margin-bottom: 1%;
+        box-shadow: 2px 2px 5px black;
+        color: white;
+        font-family: The Wild Hammers;
+    }
+    .border-links {
+        width: 100%;
+        display:flex;
+        flex-direction:column;
+        margin-top:3%;
+        padding-bottom:1%;
+        border-bottom: .1px solid grey;
+    }
+    
+    .border-links nav a { 
+        text-decoration: none;
+        font-size: .8rem;
+        margin-left:12%;
+        color: black;
+    }
+    
+.intro-head {
+    width: 93%;
+    margin-left:3%;
+    margin-top:3%;
+    border: .02px solid black;
+}
+
+.intro-para p {
+    font-size: 16px;
+}
