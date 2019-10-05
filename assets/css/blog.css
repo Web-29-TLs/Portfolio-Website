@@ -25,12 +25,18 @@
     }
     
 .intro-head {
-    width: 93%;
+    width: 90%;
     margin-left:3%;
     margin-top:3%;
     border: .02px solid black;
 }
 
+.intro-para {
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 1%;
+    border-bottom: .7px dotted grey;
+}
 .intro-para p {
     font-size: 16px;
 }
