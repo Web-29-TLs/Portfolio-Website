@@ -2632,20 +2632,24 @@ input, select, textarea {
 		border-radius: 4px;
 		display: inline-block;
 		position: relative;
+		box-shadow: 3px 3px 3px black;
 	}
 
 		.image img {
 			display: block;
 			border-radius: 4px;
+			
 		}
 
 		.image.left, .image.right {
 			width: 40%;
 			max-width: 10rem;
+			box-shadow: 3px 3px 3px black;
 		}
 
 			.image.left img, .image.right img {
 				width: 100%;
+				box-shadow: 3px 3px 3px black;
 			}
 
 		.image.left {
@@ -2678,6 +2682,7 @@ input, select, textarea {
 
 			.image.main img {
 				width: 100%;
+				box-shadow: 3px 3px 3px black;
 			}
 
 /* List */
