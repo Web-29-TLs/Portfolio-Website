@@ -67,9 +67,13 @@
 
 
 .blog-footer {
-    width: 98%;
-    background: slategrey;
-    padding:1%;
+    width: 97%;
+    background: black;
+    padding:1.5%;
     margin-right:1%;
+}
+
+.blog-p {
+    color: white;
 }
 
