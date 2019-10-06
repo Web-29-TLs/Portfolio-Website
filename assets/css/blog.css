@@ -31,12 +31,45 @@
     border: .02px solid black;
 }
 
-.intro-para {
+.para {
     width: 80%;
     margin-left: 10%;
     padding-bottom: 1%;
     border-bottom: .7px dotted grey;
 }
-.intro-para p {
+.para p {
     font-size: 16px;
 }
+
+.second-section {
+    width: 100%;
+    padding-bottom: 1%;
+}
+
+.second-section-img {
+    padding:5%;
+    margin-left: 18%;
+    margin-top: 5%;
+    border: .02px solid black;
+    box-shadow: 2px 2px 5px black;
+}
+
+.forth-section {
+    margin-top:3%;
+    padding:1%;
+    background-color: lightgrey;
+    border: .2px dashed slategrey;
+}
+
+.forth-section .para {
+    border-bottom: none;
+}
+
+
+.blog-footer {
+    width: 98%;
+    background: slategrey;
+    padding:1%;
+    margin-right:1%;
+}
+
