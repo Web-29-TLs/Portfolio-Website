@@ -25,3 +25,10 @@
     font-size: 2rem;
     font-family: The Wild Hammers;
 }
+
+.more-button {
+    background-color: lightgray;
+    width:100%;
+    padding-top:2%;
+
+}
