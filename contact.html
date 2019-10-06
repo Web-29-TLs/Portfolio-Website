@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Katrina Dierking | Contact Page</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Katrina Dierking | Contact Page</title>
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/navigation.css" />
+		<link rel="stylesheet" href="assets/css/about.css" />
+		<link rel="stylesheet" href="assets/css/index.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
 </head>
 <body>
 
@@ -16,6 +23,32 @@
                         <a href="./contact.html">Contact</a>
                 </nav>
         </section>
+
+        <section class="wrapper style1 align-center">
+                <div class="inner medium">
+                    <h1>Contact Me</h1>
+                    <form method="post" action="#">
+                        <div class="fields">
+                            <div class="field half">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" value="" />
+                            </div>
+                            <div class="field half">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" value="" />
+                            </div>
+                            <div class="field">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" rows="6"></textarea>
+                            </div>
+                        </div					>
+                        <ul class="actions special">
+                            <li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
+                        </ul>
+                    </form>
+
+                </div>
+            </section>
     
 </body>
 </html>
