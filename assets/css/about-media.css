@@ -97,6 +97,7 @@
 @media (min-width: 760px) {
     .h3-projects { 
     width: 98%;
+    margin-left: 1%;
     }
 }
 
@@ -109,4 +110,3 @@
     padding-top:3%;
     }
 }
-
